@@ -1,0 +1,117 @@
+.container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.01);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(https://mondaycareer.com/wp-content/uploads/2020/11/background-%C4%91%E1%BA%B9p-t%E1%BA%BFt-27-300x199.jpg);
+
+    .img-login {
+        object-fit: cover;
+        position: absolute;
+    }
+    .login {
+        box-shadow: 0 5px 10px 0 rgb(65 65 65 / 50%);
+        border-radius: 15px;
+        z-index: 2;
+        background-color: #fff;
+        padding: 12px;
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .logo-login {
+                width: 54px;
+                height: 54px;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+            h4 {
+                margin-top: 8px;
+                color: #0c713d;
+                font-size: 2.3rem;
+                text-align: center;
+                font-weight: 700;
+                line-height: 1.4;
+            }
+        }
+        .body {
+            margin: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .mainStep {
+                margin-top: 12px;
+                margin-bottom: 24px;
+                display: flex;
+                width: 100%;
+
+                align-items: center;
+                justify-content: center;
+                .siginBtn-wrapper {
+                    margin-top: 12px;
+                    --height: 44px;
+                    background-color: #fff;
+                    border: 2px solid #dce0e3;
+                    border-radius: 44px;
+
+                    height: var(--height);
+                    line-height: var(--height);
+                    padding-left: 16px;
+                    position: relative;
+                    text-align: center;
+                    padding: 12px;
+                    margin-left: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 80%;
+                    .icon-socialMedia {
+                        font-size: 2.4rem;
+                    }
+                    .siginBtn-title {
+                        margin-left: 8px;
+                    }
+                    &:hover {
+                        background-color: #dce0e3;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .infor-form {
+                width: 100%;
+                .label-auth {
+                    display: block;
+                    font-weight: 600;
+                    margin-top: 8px;
+                }
+                .input-auth {
+                    width: 100%;
+                    display: block;
+                    border-bottom: 1px solid #000;
+                    font-size: 1.3rem;
+                    padding-top: 8px;
+                    padding-bottom: 4px;
+                }
+                .error {
+                    color: red;
+                    font-size: 1.2rem;
+                    margin-top: 4px;
+                }
+            }
+            .dontHaveAcc {
+                a {
+                    margin-left: 4px;
+                    color: #0c713d;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
