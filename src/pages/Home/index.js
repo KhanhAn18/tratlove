@@ -276,7 +276,7 @@ function Home() {
                                     <Dropdown options={listCity} selected={city} setSelected={setCity} />
                                     <Dropdown options={listDistrict} selected={district} setSelected={setDistric} />
                                 </div>
-                                <h4>ĐỈA CHỈ CỬA HÀNG</h4>
+                                <h4>ĐỊA CHỈ CỬA HÀNG</h4>
                                 <ul className={cx('map-list-store')}>
                                     {Filter.map((location) => (
                                         <li>

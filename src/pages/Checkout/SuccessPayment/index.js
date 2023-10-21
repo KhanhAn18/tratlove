@@ -71,17 +71,17 @@ function SuccessPayment() {
             </div>
             <div className={cx('block-box')}>
                 <span className={cx('text-thank')}>
-                    Cảm ơn Quý khách hàng đã chọn mua hàng tại Phúc Long .
+                    Cảm ơn Quý khách hàng đã chọn mua hàng tại Tlove .
                     <span className={cx('text-note')}>
                         {' '}
-                        * Các đơn hàng từ 21h30 tối tới 8h sáng hôm sau. Phúc Long sẽ liên hệ với Quý khách trước 10h
+                        * Các đơn hàng từ 21h30 tối tới 8h sáng hôm sau. Tlove sẽ liên hệ với Quý khách trước 10h
                         trưa cùng ngày
                     </span>
                 </span>
                 <div className={cx('block-box-infor')}>
                     <h4>ĐẶT HÀNG THÀNH CÔNG</h4>
                     <div className={cx('infor')}>
-                        <span> Mã đơn hàng: </span> 300933387
+                        <span> Mã đơn hàng: </span> 18211821
                     </div>
                     <div className={cx('infor')}>
                         <span> Người đặt: </span> {dataCustomer.name}

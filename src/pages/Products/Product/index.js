@@ -49,7 +49,7 @@ function Products() {
                                 borderBottom: isActive ? '1px solid #0c713d' : '',
                             })}
                         >
-                            SNACKS
+                            ĐỒ ĂN
                         </NavLink>
                     </li>
                     <li>
@@ -61,7 +61,7 @@ function Products() {
                                 borderBottom: isActive ? '1px solid #0c713d' : '',
                             })}
                         >
-                            BÁNH MÌ
+                            BÁNH TRÁI
                         </NavLink>
                     </li>
                 </ul>

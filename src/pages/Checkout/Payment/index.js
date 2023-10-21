@@ -108,7 +108,7 @@ function Payment() {
                             <img src={cod} alt="cod" />
                         </label>
                         <label for="onepay" className={cx('payment-item')}>
-                            <span>Thanh toán thẻ Visa/Master/JCB/Napas qua</span>
+                            <span>Thanh toán Momo qua</span>
                             <img src={onepay} alt="cod" />
                         </label>
                         <label for="moca" className={cx('payment-item')}>

@@ -147,7 +147,7 @@ function Header() {
                                     </li>
                                     <li>
                                         <Link to="/tea/dam_vi_tra_Truyen_thong">
-                                            Cold Brew Tea - Trà Ủ Lạnh - Phong Cách Trà Mới
+                                            Trà Ủ Lạnh - Phong Cách Trà Mới
                                         </Link>
                                     </li>
                                     <li>
@@ -219,8 +219,8 @@ function Header() {
                                         <h5 className={cx('title')}>TUYỂN DỤNG</h5>
                                     </Link>
                                     <ul className={cx('menu-item')}>
-                                        <li>HTCH</li>
-                                        <li>Kiosk</li>
+                                        <li>Tập đoàn</li>
+                                        <li>Công ty</li>
                                         <li>Văn phòng</li>
                                         <li>Nhà máy</li>
                                     </ul>
